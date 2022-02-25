@@ -5,7 +5,7 @@ openlaneinstallation steps
 open terminal in your ubuntu
 type, cd
 type, sudo apt install git [it will prompt the password to enter, just type your password [you will not see any characters, just type and press ENTER key]
-type, git clone https://github.com/vision-vlsi/openlaneinstallation.git
+type, git clone https://github.com/visionvlsi/openlaneinstallation.git
 type, cd openlaneinstallation
 type, chmod 777 openlaneinstallation.sh
 type, sudo ./openlaneinstallation.sh
