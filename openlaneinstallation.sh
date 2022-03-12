@@ -123,6 +123,8 @@ echo
 echo "********************************** Cloning OpenSTA and will start installation of OpenSTA ********************"
 echo
 echo
+cd
+cd
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
