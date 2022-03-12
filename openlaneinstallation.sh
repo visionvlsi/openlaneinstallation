@@ -129,7 +129,7 @@ git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
 cd build
-sudo apt  install cmake --assume-yes
+sudo apt install cmake --assume-yes
 sudo apt-get update -y --assume-yes
 sudo apt-get install -y swig --assume-yes
 cmake ..
