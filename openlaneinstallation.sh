@@ -102,7 +102,9 @@ echo \
 sudo apt-get update --assume-yes
 sudo apt-get install docker-ce docker-ce-cli containerd.io --assume-yes
 
-cd 
+cd
+cd
+sudo apt install python3.10-venv --assume-yes
 echo
 echo
 echo "******************************** Cloning OpenLane and will start installation of openlane  *******************************"
