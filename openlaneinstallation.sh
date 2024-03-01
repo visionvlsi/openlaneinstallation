@@ -104,15 +104,17 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io --assume-yes
 
 cd
 cd
+sudo groupadd docker
+sudo usermod -aG docker $USER
 sudo apt install python3.10-venv --assume-yes
 echo
 echo
-echo "******************************** Cloning OpenLane and will start installation of openlane  *******************************"
+echo "******************************** Cloning OpenLane and will start the installation of openlane  *******************************"
 echo
 echo
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane/
-sudo make
+make
 #git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 #cd OpenLane
 #sudo make openlane
